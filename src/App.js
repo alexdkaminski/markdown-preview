@@ -1,7 +1,7 @@
 import React from 'react';
 import marked from 'marked';
 import hljs from 'highlight.js';
-import './App.css';
+import './App.scss';
 
 class MarkdownPreview extends React.Component {
   constructor(props) {
@@ -39,11 +39,15 @@ function addTwoNumbers(a, b) {
   }
   render() {
     return(
-      <div className="markdown-preview-wrapper">
+      <div className="wrapper">
         <div className="editor-wrapper">
+          <div className="title">
+            <h3>Editor</h3>
+          </div>
           <textarea id="editor" onChange={this.handleChange} value={this.state.markdown}></textarea>
         </div>
         <div className="preview-wrapper">
+        <h3>Preview</h3>
           <div id="preview" dangerouslySetInnerHTML={this.getMarkup()}>
           </div>
         </div>
@@ -52,12 +56,9 @@ function addTwoNumbers(a, b) {
   }
 }
 
-
 function App() {
   return (
-    <div className="App">
       <MarkdownPreview />
-    </div>
   );
 }
 

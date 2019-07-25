@@ -39,19 +39,27 @@ function addTwoNumbers(a, b) {
   }
   render() {
     return(
-      <div className="wrapper">
-        <div className="editor-wrapper">
-          <div className="title">
-            <h3>Editor</h3>
+      <section className="section">
+        <div className="container">
+          <div className="columns is-variable is-8">
+            <div className="editor-wrapper column">
+              <div className="title">
+                <h3>Editor</h3>
+                <i>Icon</i>
+              </div>
+              <textarea id="editor" onChange={this.handleChange} value={this.state.markdown}></textarea>
+            </div>
+            <div className="preview-wrapper column">
+            <div className="title">
+              <h3>Preview</h3>
+              <i>Icon</i>
+            </div>
+              <div id="preview" dangerouslySetInnerHTML={this.getMarkup()}>
+              </div>
+            </div>
           </div>
-          <textarea id="editor" onChange={this.handleChange} value={this.state.markdown}></textarea>
         </div>
-        <div className="preview-wrapper">
-        <h3>Preview</h3>
-          <div id="preview" dangerouslySetInnerHTML={this.getMarkup()}>
-          </div>
-        </div>
-      </div>
+      </section>
     )
   }
 }

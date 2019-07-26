@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alexdkaminski/react-demo/static/css/main.31fbf28d.chunk.css",
+    "main.js": "/alexdkaminski/react-demo/static/js/main.51c149be.chunk.js",
+    "main.js.map": "/alexdkaminski/react-demo/static/js/main.51c149be.chunk.js.map",
+    "runtime~main.js": "/alexdkaminski/react-demo/static/js/runtime~main.177e87fb.js",
+    "runtime~main.js.map": "/alexdkaminski/react-demo/static/js/runtime~main.177e87fb.js.map",
+    "static/js/2.3763b2a5.chunk.js": "/alexdkaminski/react-demo/static/js/2.3763b2a5.chunk.js",
+    "static/js/2.3763b2a5.chunk.js.map": "/alexdkaminski/react-demo/static/js/2.3763b2a5.chunk.js.map",
+    "index.html": "/alexdkaminski/react-demo/index.html",
+    "precache-manifest.b0e3275254cae411ad4acaf0ea3994ef.js": "/alexdkaminski/react-demo/precache-manifest.b0e3275254cae411ad4acaf0ea3994ef.js",
+    "service-worker.js": "/alexdkaminski/react-demo/service-worker.js",
+    "static/css/main.31fbf28d.chunk.css.map": "/alexdkaminski/react-demo/static/css/main.31fbf28d.chunk.css.map"
+  }
+}

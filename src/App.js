@@ -11,15 +11,24 @@ class MarkdownPreview extends React.Component {
     super(props);
     this.state = {
       markdown: 
-      `# React Markdown Previewer
+`# React Markdown Previewer
 ## Free Code Camp Front End Library Project
 [FreeCodeCamp.com](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer)\n
 Inline \`code\`
 \`\`\`
-function addTwoNumbers(a, b) {
-  return a + b
+var name = "Alex"
+function printName(name) {
+  hello + " " + name
 }
-\`\`\``,
+\`\`\`
+>Quote
+
+- List item
+
+**bold**
+
+![markdown logo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown logo")
+`,
       expanded: ""
     };
     this.handleChange = this.handleChange.bind(this)

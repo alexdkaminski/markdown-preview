@@ -8,6 +8,7 @@
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/layout/section.sass";
+@import "bulma/sass/elements/box.sass";
 
 body {
   background: #F0F4F8;
@@ -28,6 +29,7 @@ body {
   color: white;
   padding: 20px;
   border: 0px;
+  box-shadow: 0 4px 6px hsla(0,0%,0%,.2);
 }
 
 #preview {
@@ -35,6 +37,7 @@ body {
   padding: 20px;
   background: white;
   height: 80vh;
+  box-shadow: 0 4px 6px hsla(0,0%,0%,.2);
 }
 
 .title {
@@ -64,4 +67,18 @@ pre code {
     background-color: #3a3a3a;
     color: white;
     padding: .25vw .5vw;
+}
+
+//Icons
+
+.primary {
+  fill: $secondaryColor;
+}
+
+.secondary {
+  fill: white;
+}
+
+.hide {
+  display: none;
 }
